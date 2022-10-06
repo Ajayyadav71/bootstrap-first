@@ -1,0 +1,89 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;   
+}
+.member{
+    width:100%;
+    padding: 20px 100px;
+    font-family: sans-serif;
+}
+.member-info{
+    text-align: center;
+}
+.member-info h1{
+    font-size: 2.5em;
+}
+.member-info h1 span{
+    color: red;
+}
+.member-card{
+    text-align: center;
+    padding-top: 50px;
+    width: 50%;
+    margin: auto;
+}
+.member-card p{
+    margin: 20px 0px;
+    line-height: 2em;
+    color:black ;
+    font-family:sans-serif;
+}
+.member-card img{
+    border-radius:90%;   
+}
+.member-card h3{
+    margin: 20px 0px;
+}
+footer{
+    width: 100%;
+    height: 50vh;
+    background: #262626;
+    align-items: center;
+    }
+    .f-contact{
+        color: white;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+       padding: 20px 30px;
+        margin-top: 2em;
+        border-bottom: 1px solid rgba(255,255,255,0.2);
+    }
+    .f-contact p{
+        line-height: 2em;
+        font-size: 14px;
+        color: grey;
+        cursor: pointer;
+    }
+    .f-contact p:hover{
+        color: white;
+    }
+    .row
+    {
+      margin-left: 25px;  
+    }
+    .image
+    {
+        padding:20px;
+        margin: 1px 20px;
+        align-items: center;
+    }
+    .image1
+    {
+        padding:10px;
+        margin: 5px 10px;
+        align-items: center;
+    }
+    .image2
+    {
+        padding:20px;
+        margin: 5px 10px;
+        align-items: center;
+    }
+    .image3
+    {
+        padding:0px;
+        margin: 10px 10px;
+        align-items: center;
+    }
